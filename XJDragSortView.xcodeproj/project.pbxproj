@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6216CFF222C44E2200A554C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216CFF122C44E2200A554C4 /* AppDelegate.m */; };
+		6216CFFA22C44E2400A554C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6216CFF922C44E2400A554C4 /* Assets.xcassets */; };
+		6216CFFD22C44E2400A554C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6216CFFB22C44E2400A554C4 /* LaunchScreen.storyboard */; };
+		6216D00022C44E2400A554C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216CFFF22C44E2400A554C4 /* main.m */; };
+		6216D00A22C44E2400A554C4 /* XJDragSortViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D00922C44E2400A554C4 /* XJDragSortViewTests.m */; };
+		6216D01522C44E2400A554C4 /* XJDragSortViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D01422C44E2400A554C4 /* XJDragSortViewUITests.m */; };
+		6216D05222C462EF00A554C4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D04922C462EE00A554C4 /* UIView+Frame.m */; };
+		6216D05322C462EF00A554C4 /* XJDragSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D04C22C462EE00A554C4 /* XJDragSortViewController.m */; };
+		6216D05422C462EF00A554C4 /* XJDargSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D04D22C462EE00A554C4 /* XJDargSortCell.m */; };
+		6216D05522C462EF00A554C4 /* XJDragSortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D04E22C462EF00A554C4 /* XJDragSortTool.m */; };
+		6216D05622C462EF00A554C4 /* XJAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6216D04F22C462EF00A554C4 /* XJAddCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6216D00622C44E2400A554C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6216CFE522C44E2200A554C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6216CFEC22C44E2200A554C4;
+			remoteInfo = XJDragSortView;
+		};
+		6216D01122C44E2400A554C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6216CFE522C44E2200A554C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6216CFEC22C44E2200A554C4;
+			remoteInfo = XJDragSortView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6216CFED22C44E2200A554C4 /* XJDragSortView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XJDragSortView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6216CFF022C44E2200A554C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6216CFF122C44E2200A554C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6216CFF922C44E2400A554C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6216CFFC22C44E2400A554C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6216CFFE22C44E2400A554C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6216CFFF22C44E2400A554C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6216D00522C44E2400A554C4 /* XJDragSortViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJDragSortViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6216D00922C44E2400A554C4 /* XJDragSortViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJDragSortViewTests.m; sourceTree = "<group>"; };
+		6216D00B22C44E2400A554C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6216D01022C44E2400A554C4 /* XJDragSortViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJDragSortViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6216D01422C44E2400A554C4 /* XJDragSortViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJDragSortViewUITests.m; sourceTree = "<group>"; };
+		6216D01622C44E2400A554C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6216D04722C462EE00A554C4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6216D04822C462EE00A554C4 /* XJDragSortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJDragSortTool.h; sourceTree = "<group>"; };
+		6216D04922C462EE00A554C4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6216D04A22C462EE00A554C4 /* XJDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJDefine.h; sourceTree = "<group>"; };
+		6216D04B22C462EE00A554C4 /* XJDragSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJDragSortViewController.h; sourceTree = "<group>"; };
+		6216D04C22C462EE00A554C4 /* XJDragSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJDragSortViewController.m; sourceTree = "<group>"; };
+		6216D04D22C462EE00A554C4 /* XJDargSortCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJDargSortCell.m; sourceTree = "<group>"; };
+		6216D04E22C462EF00A554C4 /* XJDragSortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJDragSortTool.m; sourceTree = "<group>"; };
+		6216D04F22C462EF00A554C4 /* XJAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJAddCell.m; sourceTree = "<group>"; };
+		6216D05022C462EF00A554C4 /* XJAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJAddCell.h; sourceTree = "<group>"; };
+		6216D05122C462EF00A554C4 /* XJDargSortCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJDargSortCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6216CFEA22C44E2200A554C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216D00222C44E2400A554C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216D00D22C44E2400A554C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6216CFE422C44E2200A554C4 = {
+			isa = PBXGroup;
+			children = (
+				6216CFEF22C44E2200A554C4 /* XJDragSortView */,
+				6216D00822C44E2400A554C4 /* XJDragSortViewTests */,
+				6216D01322C44E2400A554C4 /* XJDragSortViewUITests */,
+				6216CFEE22C44E2200A554C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6216CFEE22C44E2200A554C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6216CFED22C44E2200A554C4 /* XJDragSortView.app */,
+				6216D00522C44E2400A554C4 /* XJDragSortViewTests.xctest */,
+				6216D01022C44E2400A554C4 /* XJDragSortViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6216CFEF22C44E2200A554C4 /* XJDragSortView */ = {
+			isa = PBXGroup;
+			children = (
+				6216CFF022C44E2200A554C4 /* AppDelegate.h */,
+				6216CFF122C44E2200A554C4 /* AppDelegate.m */,
+				6216D04B22C462EE00A554C4 /* XJDragSortViewController.h */,
+				6216D04C22C462EE00A554C4 /* XJDragSortViewController.m */,
+				6216D04722C462EE00A554C4 /* UIView+Frame.h */,
+				6216D04922C462EE00A554C4 /* UIView+Frame.m */,
+				6216D05022C462EF00A554C4 /* XJAddCell.h */,
+				6216D04F22C462EF00A554C4 /* XJAddCell.m */,
+				6216D05122C462EF00A554C4 /* XJDargSortCell.h */,
+				6216D04D22C462EE00A554C4 /* XJDargSortCell.m */,
+				6216D04A22C462EE00A554C4 /* XJDefine.h */,
+				6216D04822C462EE00A554C4 /* XJDragSortTool.h */,
+				6216D04E22C462EF00A554C4 /* XJDragSortTool.m */,
+				6216CFF922C44E2400A554C4 /* Assets.xcassets */,
+				6216CFFB22C44E2400A554C4 /* LaunchScreen.storyboard */,
+				6216CFFE22C44E2400A554C4 /* Info.plist */,
+				6216CFFF22C44E2400A554C4 /* main.m */,
+			);
+			path = XJDragSortView;
+			sourceTree = "<group>";
+		};
+		6216D00822C44E2400A554C4 /* XJDragSortViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6216D00922C44E2400A554C4 /* XJDragSortViewTests.m */,
+				6216D00B22C44E2400A554C4 /* Info.plist */,
+			);
+			path = XJDragSortViewTests;
+			sourceTree = "<group>";
+		};
+		6216D01322C44E2400A554C4 /* XJDragSortViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6216D01422C44E2400A554C4 /* XJDragSortViewUITests.m */,
+				6216D01622C44E2400A554C4 /* Info.plist */,
+			);
+			path = XJDragSortViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6216CFEC22C44E2200A554C4 /* XJDragSortView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6216D01922C44E2400A554C4 /* Build configuration list for PBXNativeTarget "XJDragSortView" */;
+			buildPhases = (
+				6216CFE922C44E2200A554C4 /* Sources */,
+				6216CFEA22C44E2200A554C4 /* Frameworks */,
+				6216CFEB22C44E2200A554C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XJDragSortView;
+			productName = XJDragSortView;
+			productReference = 6216CFED22C44E2200A554C4 /* XJDragSortView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6216D00422C44E2400A554C4 /* XJDragSortViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6216D01C22C44E2400A554C4 /* Build configuration list for PBXNativeTarget "XJDragSortViewTests" */;
+			buildPhases = (
+				6216D00122C44E2400A554C4 /* Sources */,
+				6216D00222C44E2400A554C4 /* Frameworks */,
+				6216D00322C44E2400A554C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6216D00722C44E2400A554C4 /* PBXTargetDependency */,
+			);
+			name = XJDragSortViewTests;
+			productName = XJDragSortViewTests;
+			productReference = 6216D00522C44E2400A554C4 /* XJDragSortViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6216D00F22C44E2400A554C4 /* XJDragSortViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6216D01F22C44E2400A554C4 /* Build configuration list for PBXNativeTarget "XJDragSortViewUITests" */;
+			buildPhases = (
+				6216D00C22C44E2400A554C4 /* Sources */,
+				6216D00D22C44E2400A554C4 /* Frameworks */,
+				6216D00E22C44E2400A554C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6216D01222C44E2400A554C4 /* PBXTargetDependency */,
+			);
+			name = XJDragSortViewUITests;
+			productName = XJDragSortViewUITests;
+			productReference = 6216D01022C44E2400A554C4 /* XJDragSortViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6216CFE522C44E2200A554C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Johnay;
+				TargetAttributes = {
+					6216CFEC22C44E2200A554C4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6216D00422C44E2400A554C4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6216CFEC22C44E2200A554C4;
+					};
+					6216D00F22C44E2400A554C4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6216CFEC22C44E2200A554C4;
+					};
+				};
+			};
+			buildConfigurationList = 6216CFE822C44E2200A554C4 /* Build configuration list for PBXProject "XJDragSortView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6216CFE422C44E2200A554C4;
+			productRefGroup = 6216CFEE22C44E2200A554C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6216CFEC22C44E2200A554C4 /* XJDragSortView */,
+				6216D00422C44E2400A554C4 /* XJDragSortViewTests */,
+				6216D00F22C44E2400A554C4 /* XJDragSortViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6216CFEB22C44E2200A554C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6216CFFD22C44E2400A554C4 /* LaunchScreen.storyboard in Resources */,
+				6216CFFA22C44E2400A554C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216D00322C44E2400A554C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216D00E22C44E2400A554C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6216CFE922C44E2200A554C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6216D05322C462EF00A554C4 /* XJDragSortViewController.m in Sources */,
+				6216D05522C462EF00A554C4 /* XJDragSortTool.m in Sources */,
+				6216D05222C462EF00A554C4 /* UIView+Frame.m in Sources */,
+				6216D05422C462EF00A554C4 /* XJDargSortCell.m in Sources */,
+				6216D00022C44E2400A554C4 /* main.m in Sources */,
+				6216CFF222C44E2200A554C4 /* AppDelegate.m in Sources */,
+				6216D05622C462EF00A554C4 /* XJAddCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216D00122C44E2400A554C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6216D00A22C44E2400A554C4 /* XJDragSortViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6216D00C22C44E2400A554C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6216D01522C44E2400A554C4 /* XJDragSortViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6216D00722C44E2400A554C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6216CFEC22C44E2200A554C4 /* XJDragSortView */;
+			targetProxy = 6216D00622C44E2400A554C4 /* PBXContainerItemProxy */;
+		};
+		6216D01222C44E2400A554C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6216CFEC22C44E2200A554C4 /* XJDragSortView */;
+			targetProxy = 6216D01122C44E2400A554C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6216CFFB22C44E2400A554C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6216CFFC22C44E2400A554C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6216D01722C44E2400A554C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6216D01822C44E2400A554C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6216D01A22C44E2400A554C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJDragSortView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnay.XJDragSortView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6216D01B22C44E2400A554C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJDragSortView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnay.XJDragSortView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6216D01D22C44E2400A554C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJDragSortViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnay.XJDragSortViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJDragSortView.app/XJDragSortView";
+			};
+			name = Debug;
+		};
+		6216D01E22C44E2400A554C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJDragSortViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnay.XJDragSortViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XJDragSortView.app/XJDragSortView";
+			};
+			name = Release;
+		};
+		6216D02022C44E2400A554C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJDragSortViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnay.XJDragSortViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XJDragSortView;
+			};
+			name = Debug;
+		};
+		6216D02122C44E2400A554C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XJDragSortViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnay.XJDragSortViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XJDragSortView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6216CFE822C44E2200A554C4 /* Build configuration list for PBXProject "XJDragSortView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6216D01722C44E2400A554C4 /* Debug */,
+				6216D01822C44E2400A554C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6216D01922C44E2400A554C4 /* Build configuration list for PBXNativeTarget "XJDragSortView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6216D01A22C44E2400A554C4 /* Debug */,
+				6216D01B22C44E2400A554C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6216D01C22C44E2400A554C4 /* Build configuration list for PBXNativeTarget "XJDragSortViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6216D01D22C44E2400A554C4 /* Debug */,
+				6216D01E22C44E2400A554C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6216D01F22C44E2400A554C4 /* Build configuration list for PBXNativeTarget "XJDragSortViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6216D02022C44E2400A554C4 /* Debug */,
+				6216D02122C44E2400A554C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6216CFE522C44E2200A554C4 /* Project object */;
+}
